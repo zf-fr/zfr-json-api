@@ -1,0 +1,29 @@
+{
+  "name": "zfr/json-api",
+  "description": "PSR-7 compliant library to create and manipulate JSON.API compliant payload",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "json-api",
+    "rest"
+  ],
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zend-diactoros": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.7",
+    "squizlabs/php_codesniffer": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zfr\\JsonApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ZfrTest\\JsonApi\\": "test/"
+    }
+  }
+}
